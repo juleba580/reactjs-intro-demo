@@ -1,8 +1,16 @@
 import React from "react";
 
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import AddTask from "./components/addTask";
+import Task from "./components/Task";
+import Tasks from "./components/Tasks";
+
 export default () => (
   <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
+    <AddTask/>
+    <Task/>
+    <Tasks/>
+    
   </>
 );
