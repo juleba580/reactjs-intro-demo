@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React  from 'react';
+
+import Task from './Task';
 
 
 const Tasks = (props) => {
     return(
-        <h1>My Tasks Zone</h1>
+        <>
+        <Task title="My First Task"/>
+        <Task title="My second Task"/>
+        </>
     );
 };
 
